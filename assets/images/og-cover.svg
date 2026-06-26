@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#070A13"/>
+  <circle cx="1040" cy="120" r="260" fill="#146498" opacity="0.35"/>
+  <circle cx="210" cy="520" r="250" fill="#631B7C" opacity="0.38"/>
+  <rect x="84" y="86" width="1032" height="458" rx="38" fill="#0E1324" stroke="#26314F"/>
+  <text x="116" y="168" fill="#9AE6FF" font-family="Arial, sans-serif" font-size="28" font-weight="700">RS AUTOMAÇÃO DIGITAL</text>
+  <text x="116" y="254" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="68" font-weight="800">Portfólio de Landing Pages</text>
+  <text x="116" y="324" fill="#C9D4EA" font-family="Arial, sans-serif" font-size="34">Sites, automações e páginas criadas para vender.</text>
+  <rect x="116" y="390" width="264" height="68" rx="20" fill="#FFFFFF"/>
+  <text x="150" y="434" fill="#090B16" font-family="Arial, sans-serif" font-size="24" font-weight="800">Ver projetos</text>
+  <rect x="410" y="390" width="280" height="68" rx="20" fill="#161D33" stroke="#2C3A60"/>
+  <text x="444" y="434" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Falar no WhatsApp</text>
+</svg>

@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanook Fitness App | Gestão completa para academias</title>
+    <meta
+      name="description"
+      content="Sistema online para academias controlarem alunos, mensalidades, avaliações, anamnese, fichas de treino e financeiro em um só lugar."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="icon" type="image/png" href="assets/images/icon-light.png" />
+    <link rel="shortcut icon" href="assets/images/icon-light.png" />
+  </head>
+  <body data-theme="dark">
+    <div class="top-progress" id="topProgress"></div>
+
+    <header class="site-header" id="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Nanook Fitness App">
+          <img
+            src="assets/images/logo-light.png"
+            alt="Nanook Fitness App"
+            class="brand-logo brand-logo-light"
+          />
+          <img
+            src="assets/images/logo-dark.png"
+            alt="Nanook Fitness App"
+            class="brand-logo brand-logo-dark"
+          />
+        </a>
+
+        <nav class="nav" id="navMenu">
+          <a href="#problema">Problema</a>
+          <a href="#solucao">Solução</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#preco">Plano</a>
+          <a href="#contato" class="nav-cta">Quero conhecer</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+          <i class="ti ti-sun-high"></i>
+          <span id="themeLabel">Modo claro</span>
+        </button> -->
+
+          <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+            <i class="ti ti-menu-2"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"
+              ><i class="ti ti-sparkles"></i> Gestão completa para
+              academias</span
+            >
+            <h1>
+              Menos planilha. Mais alunos ativos. Gestão de academia em um só
+              lugar.
+            </h1>
+            <p class="hero-lead">
+              O Nanook Fitness App centraliza mensalidades, alunos, fichas de
+              treino, avaliações, anamnese e financeiro para sua academia parar
+              de apagar incêndio e começar a crescer com controle.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contato" class="btn btn-primary">
+                Quero melhorar minha gestão
+                <i class="ti ti-arrow-right"></i>
+              </a>
+              <a href="#solucao" class="btn btn-ghost"> Ver como funciona </a>
+            </div>
+
+            <div class="trust-row">
+              <span
+                ><i class="ti ti-shield-check"></i> Garantia de 30 dias</span
+              >
+              <span><i class="ti ti-cloud-check"></i> 100% online</span>
+              <span><i class="ti ti-headset"></i> Suporte humanizado</span>
+            </div>
+          </div>
+
+          <div
+            class="hero-panel reveal delay-1"
+            aria-label="Demonstração visual do sistema"
+          >
+            <div class="panel-top">
+              <div>
+                <span>Resumo da academia</span>
+                <strong>Hoje</strong>
+              </div>
+              <span class="status-pill">Controle em dia</span>
+            </div>
+
+            <div class="metrics-grid">
+              <article>
+                <i class="ti ti-users"></i>
+                <small>Alunos ativos</small>
+                <strong>428</strong>
+              </article>
+              <article>
+                <i class="ti ti-cash"></i>
+                <small>Mensalidades</small>
+                <strong>96%</strong>
+              </article>
+              <article>
+                <i class="ti ti-clipboard-list"></i>
+                <small>Fichas</small>
+                <strong>1.2k</strong>
+              </article>
+              <article>
+                <i class="ti ti-heart-rate-monitor"></i>
+                <small>Avaliações</small>
+                <strong>312</strong>
+              </article>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-head">
+                <span>Fluxo financeiro</span>
+                <strong>+23%</strong>
+              </div>
+              <div class="bar-chart" aria-hidden="true">
+                <span style="height: 42%"></span>
+                <span style="height: 65%"></span>
+                <span style="height: 54%"></span>
+                <span style="height: 78%"></span>
+                <span style="height: 68%"></span>
+                <span style="height: 90%"></span>
+              </div>
+            </div>
+
+            <div class="floating-card one">
+              <i class="ti ti-alert-circle"></i>
+              <div>
+                <strong>12 vencimentos</strong>
+                <small>para acompanhar hoje</small>
+              </div>
+            </div>
+
+            <div class="floating-card two">
+              <i class="ti ti-check"></i>
+              <div>
+                <strong>Ficha atualizada</strong>
+                <small>em poucos cliques</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pain-section section" id="problema">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow danger"
+              ><i class="ti ti-alert-triangle"></i> O problema não é falta de
+              esforço</span
+            >
+            <h2>
+              Sua academia perde dinheiro quando a gestão depende de memória,
+              caderno e planilha solta.
+            </h2>
+            <p>
+              O método antigo funcionava quando a academia era pequena. Para
+              crescer, precisa de processo. Simples assim.
+            </p>
+          </div>
+
+          <div class="pain-grid">
+            <article class="pain-card reveal">
+              <span>01</span>
+              <h3>Mensalidades difíceis de controlar</h3>
+              <p>
+                Pagamentos vencidos, baixas manuais, conferência cansativa e
+                aquela sensação de que algum valor ficou pelo caminho.
+              </p>
+            </article>
+            <article class="pain-card reveal delay-1">
+              <span>02</span>
+              <h3>Informações espalhadas</h3>
+              <p>
+                Cadastro em um lugar, ficha em outro, avaliação perdida e
+                financeiro na planilha. Crescer assim vira malabarismo.
+              </p>
+            </article>
+            <article class="pain-card reveal delay-2">
+              <span>03</span>
+              <h3>Equipe travada no operacional</h3>
+              <p>
+                Tempo que poderia virar venda, retenção e atendimento melhor
+                acaba indo para tarefas repetidas e conferência manual.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution-section section" id="solucao">
+        <div class="container solution-grid">
+          <div class="solution-visual reveal">
+            <div class="phone-card">
+              <div class="phone-header">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="phone-content">
+                <div class="mini-profile">
+                  <div class="avatar">AM</div>
+                  <div>
+                    <strong>Ana Martins</strong>
+                    <small>Plano recorrente ativo</small>
+                  </div>
+                </div>
+                <div class="check-list">
+                  <p>
+                    <i class="ti ti-circle-check"></i> Mensalidade registrada
+                  </p>
+                  <p><i class="ti ti-circle-check"></i> Avaliação atualizada</p>
+                  <p><i class="ti ti-circle-check"></i> Ficha liberada</p>
+                  <p>
+                    <i class="ti ti-circle-check"></i> Anamnese no histórico
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="solution-copy reveal delay-1">
+            <span class="eyebrow"><i class="ti ti-rocket"></i> A solução</span>
+            <h2>
+              Um sistema ágil para colocar ordem na casa sem complicar sua
+              rotina.
+            </h2>
+            <p>
+              O Nanook reúne as rotinas essenciais da academia em uma plataforma
+              online: financeiro, alunos, mensalidades, fichas, avaliações e
+              anamnese. É gestão com cara de gestão, não gambiarra digital.
+            </p>
+            <div class="bullet-stack">
+              <div>
+                <i class="ti ti-check"></i> Controle de alunos, planos e
+                mensalidades
+              </div>
+              <div>
+                <i class="ti ti-check"></i> Fichas de treino e modelos prontos
+              </div>
+              <div>
+                <i class="ti ti-check"></i> Avaliações completas e anamnese
+                organizada
+              </div>
+              <div>
+                <i class="ti ti-check"></i> Acesso online de qualquer lugar
+              </div>
+            </div>
+            <a href="#preco" class="btn btn-primary"
+              >Ver plano especial <i class="ti ti-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section section" id="recursos">
+        <div class="container">
+          <div class="section-heading narrow reveal">
+            <span class="eyebrow"
+              ><i class="ti ti-layout-dashboard"></i> Recursos que vendem
+              organização</span
+            >
+            <h2>O que sua academia passa a controlar com mais clareza</h2>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <i class="ti ti-credit-card-pay"></i>
+              <h3>Gestão de mensalidades</h3>
+              <p>
+                Veja alunos pagos, vencidos e em aberto sem virar refém de
+                conferência manual.
+              </p>
+            </article>
+            <article class="feature-card reveal delay-1">
+              <i class="ti ti-user-square-rounded"></i>
+              <h3>Cadastro de alunos</h3>
+              <p>
+                Dados importantes centralizados para atendimento, acompanhamento
+                e retenção.
+              </p>
+            </article>
+            <article class="feature-card reveal delay-2">
+              <i class="ti ti-barbell"></i>
+              <h3>Ficha de treino</h3>
+              <p>
+                Crie fichas, use modelos e padronize prescrições sem perder
+                agilidade.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <i class="ti ti-clipboard-heart"></i>
+              <h3>Avaliações e anamnese</h3>
+              <p>
+                Histórico organizado para acompanhar evolução e tomar decisões
+                melhores.
+              </p>
+            </article>
+            <article class="feature-card reveal delay-1">
+              <i class="ti ti-report-money"></i>
+              <h3>Controle financeiro</h3>
+              <p>
+                Mais clareza sobre entradas, pendências e rotina financeira da
+                academia.
+              </p>
+            </article>
+            <article class="feature-card reveal delay-2">
+              <i class="ti ti-cloud"></i>
+              <h3>Sistema online</h3>
+              <p>
+                Acesse de qualquer lugar, sem depender de computador específico
+                ou papelada.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section section">
+        <div class="container">
+          <div class="section-heading narrow reveal">
+            <span class="eyebrow"
+              ><i class="ti ti-route"></i> Implantação sem novela</span
+            >
+            <h2>Do primeiro contato ao sistema rodando</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-card reveal">
+              <span>01</span>
+              <h3>Entendemos sua rotina</h3>
+              <p>
+                Mapeamos como sua academia trabalha hoje e onde o sistema entra
+                para ganhar tempo.
+              </p>
+            </article>
+            <article class="process-card reveal delay-1">
+              <span>02</span>
+              <h3>Migramos seus dados</h3>
+              <p>
+                A migração é feita sem custo para você sair do improviso com
+                segurança.
+              </p>
+            </article>
+            <article class="process-card reveal delay-2">
+              <span>03</span>
+              <h3>Implementamos com suporte</h3>
+              <p>
+                Você não recebe só login e senha. Recebe orientação para colocar
+                em prática.
+              </p>
+            </article>
+            <article class="process-card reveal delay-3">
+              <span>04</span>
+              <h3>Acompanhamos depois</h3>
+              <p>
+                Suporte humanizado para ajustar dúvidas e manter a operação
+                funcionando.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section section" id="preco">
+        <div class="container pricing-grid">
+          <div class="pricing-copy reveal">
+            <span class="eyebrow"
+              ><i class="ti ti-tag"></i> Oferta especial</span
+            >
+            <h2>
+              Comece a gerir sua academia de verdade pagando menos que o custo
+              da desorganização.
+            </h2>
+            <p>
+              Uma mensalidade fixa, simples e acessível para academias que
+              querem parar de perder tempo com controle manual.
+            </p>
+            <div class="mini-proof">
+              <div><strong>150+</strong><span>empresários atendidos</span></div>
+              <div><strong>30 dias</strong><span>de garantia</span></div>
+              <div><strong>Online</strong><span>de qualquer lugar</span></div>
+            </div>
+          </div>
+
+          <article class="price-card reveal delay-1">
+            <div class="popular-badge">Mais popular</div>
+            <h3>Plano Nano Unic</h3>
+            <p class="price-subtitle">Gestão completa para academias</p>
+            <div class="price-box">
+              <span>De R$ 589,60</span>
+              <strong>R$ 125,98</strong>
+              <small>/ mês</small>
+            </div>
+            <ul>
+              <li>
+                <i class="ti ti-check"></i> Quantidade ilimitada de alunos
+              </li>
+              <li><i class="ti ti-check"></i> Sistema 100% online</li>
+              <li><i class="ti ti-check"></i> Fichas de treino</li>
+              <li><i class="ti ti-check"></i> Avaliações completas</li>
+              <li><i class="ti ti-check"></i> Controle financeiro</li>
+              <li><i class="ti ti-check"></i> Anamnese</li>
+              <li><i class="ti ti-check"></i> Planos flexíveis</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary btn-full"
+              >Quero transformar minha academia</a
+            >
+            <p class="guarantee">
+              <i class="ti ti-shield-check"></i> 30 dias de garantia ou seu
+              dinheiro de volta
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-section" id="contato">
+        <div class="container cta-box reveal">
+          <span class="eyebrow light"
+            ><i class="ti ti-message-circle"></i> Bora organizar essa
+            academia?</span
+          >
+          <h2>O digital não espera. E aluno nenhum gosta de bagunça.</h2>
+          <p>
+            Fale com a equipe Nanook e veja como sua academia pode sair das
+            planilhas para uma gestão mais profissional.
+          </p>
+          <div class="cta-actions">
+            <a
+              href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20Nanook%20Fitness%20App"
+              class="btn btn-light"
+              target="_blank"
+              rel="noopener"
+            >
+              Chamar no WhatsApp
+              <i class="ti ti-brand-whatsapp"></i>
+            </a>
+            <a href="mailto:app@appnanook.com.br" class="btn btn-outline-light">
+              app@appnanook.com.br
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#inicio">
+            <img
+              src="assets/images/logo-light.png"
+              alt="Nanook Fitness App"
+              class="brand-logo brand-logo-light"
+            />
+            <img
+              src="assets/images/logo-dark.png"
+              alt="Nanook Fitness App"
+              class="brand-logo brand-logo-dark"
+            />
+          </a>
+          <p>
+            Sistema online para academias que querem gestão simples,
+            centralizada e profissional.
+          </p>
+        </div>
+        <div>
+          <strong>Contato</strong>
+          <a href="mailto:app@appnanook.com.br">app@appnanook.com.br</a>
+          <a
+            href="https://www.instagram.com/nanookfit"
+            target="_blank"
+            rel="noopener"
+            >@nanookfit</a
+          >
+        </div>
+        <div>
+          <strong>Navegação</strong>
+          <a href="#problema">Problema</a>
+          <a href="#solucao">Solução</a>
+          <a href="#preco">Plano</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Nanook Fitness App. Todos os direitos reservados.</span>
+        <span>Desenvolvido por RS Automação Digital</span>
+      </div>
+    </footer>
+
+    <a href="#inicio" class="back-top" id="backTop" aria-label="Voltar ao topo">
+      <i class="ti ti-arrow-up"></i>
+    </a>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
