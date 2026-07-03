@@ -1,12 +1,12 @@
-# Landing Page — Contador Tributarista
+# Página de venda — Contador Tributarista
 
-Landing page estática para captação de leads de consultoria tributária.
+Landing page estática para captação de contatos de consultoria tributária.
 
 ## Arquivos
 
 - `index.html`: estrutura da página e copy de venda.
 - `assets/css/style.css`: layout, responsividade, cores e animações.
-- `assets/js/app.js`: menu mobile, formulário, máscara de telefone/CNPJ, WhatsApp, FAQ e botão voltar ao topo.
+- `assets/js/app.js`: menu no celular, formulário, máscara de telefone/CNPJ, WhatsApp, FAQ e botão voltar ao topo.
 - `assets/img/logo.svg`: logo provisória em SVG.
 
 ## Como personalizar rápido
@@ -39,7 +39,7 @@ Troque pelo e-mail do contador.
 
 A logo está em SVG provisório. Você pode substituir o arquivo `assets/img/logo.svg` por outra logo mantendo o mesmo nome, ou editar o texto diretamente no SVG.
 
-### 4. Receber leads no n8n ou CRM
+### 4. Receber contatos no processo automático ou lista de atendimento
 
 No `assets/js/app.js`, cole a URL do webhook:
 

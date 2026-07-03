@@ -1,12 +1,12 @@
-# Nanook Fitness Landing Page
+# Nanook Fitness Página de venda
 
-Landing page moderna, minimalista e responsiva para vender o Nanook Fitness App para academias.
+Página de venda moderna, minimalista e boa no celular para vender o Nanook Fitness App para academias.
 
 ## Arquivos
 
-- `index.html`: estrutura da landing page
+- `index.html`: estrutura da página de venda
 - `assets/css/style.css`: estilos, responsividade e visual
-- `assets/js/app.js`: menu mobile, animações e botão voltar ao topo com progresso
+- `assets/js/app.js`: menu no celular, animações e botão voltar ao topo com progresso
 
 ## Ajustes rápidos
 

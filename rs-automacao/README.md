@@ -1,5 +1,5 @@
 # rs-automacao
 
-Coloque aqui os arquivos da landing page correspondente.
+Coloque aqui os arquivos da página de venda correspondente.
 
 O arquivo principal deve se chamar: index.html

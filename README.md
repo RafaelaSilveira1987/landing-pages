@@ -1,79 +1,51 @@
-# Portfolio Landing Pages - RS Automação Digital
+# RS Automação Digital — Portfólio de Projetos Web
 
-Estrutura pronta para subir no GitHub e publicar no Easypanel usando Dockerfile + Nginx.
+Versão estática em **HTML, CSS e JavaScript puro**, adaptada visualmente a partir do modelo `portflio-projetos-web-main` enviado como referência.
 
-## Estrutura
+## O que foi adaptado
 
-```txt
-portfolio-landing-pages-v2/
-├── Dockerfile
-├── nginx.conf
-├── index.html
-├── assets/
-│   ├── css/styles.css
-│   ├── js/app.js
-│   └── images/
-├── pericia/
-├── contabilidade/
-├── nanook/
-└── rs-automacao/
-```
+- Hero centralizado com fundo em gradiente, partículas e destaque visual.
+- Menu fixo com efeito de blur ao rolar.
+- Estatísticas no topo, como no modelo de referência.
+- Seção de projetos em grid modular com mockups visuais em CSS.
+- Filtros por categoria: Todos, Páginas de venda, Sites, Automações, Serviços e Saúde.
+- Cards com hover, botão de visualização e etiquetas técnicas.
+- Seção de serviços com cards e ícones em SVG inline.
+- Seção de método/processo.
+- botão de contato final e botão voltar ao topo.
+- JS leve para menu no celular, filtros e animação ao rolar a página e ano automático.
 
-## Como usar
-
-1. Suba esta pasta para um repositório no GitHub.
-2. No Easypanel, crie um novo App.
-3. Escolha o repositório do GitHub.
-4. Configure:
+## Arquivos principais
 
 ```txt
-Build Method: Dockerfile
-Dockerfile Path: ./Dockerfile
-Target Port: 80
+index.html
+assets/css/styles.css
+assets/js/app.js
 ```
 
-5. Configure o domínio em Domain & Proxy.
-
-## Onde colocar as landing pages reais
-
-Substitua o conteúdo de cada subpasta pelo conteúdo final da respectiva landing page:
+## Links dos projetos preservados
 
 ```txt
-/pericia/
-/contabilidade/
-/nanook/
-/rs-automacao/
+./contabilidade/
+./pericia/
+./nanook/
+./rs-automacao/
 ```
 
-Cada pasta precisa ter um `index.html` principal.
+## Ajuste importante
 
-## WhatsApp
+No botão de WhatsApp, troque o número placeholder:
 
-No arquivo `index.html`, procure por:
-
-```html
+```txt
 https://wa.me/5500000000000
 ```
 
-Troque pelo número real no formato internacional, por exemplo:
+por seu número real no formato internacional, por exemplo:
 
-```html
+```txt
 https://wa.me/5511999999999
 ```
 
+## Publicação
 
-## Correção de CSS
-
-Esta versão usa caminhos relativos (`./assets/...`) no `index.html`.
-Assim funciona tanto abrindo localmente no navegador quanto publicado no Easypanel/Nginx.
-
-Se substituir os arquivos das landing pages dentro das subpastas, mantenha os caminhos dos assets conforme a posição do arquivo:
-
-- página principal: `./assets/css/styles.css`
-- páginas dentro de subpastas: `../assets/...`
-
-
-
-## Versão v4
-
-Tema híbrido claro/escuro: fundo claro, cards brancos e blocos escuros apenas nos pontos de destaque. Ideal para portfólio comercial sem ficar pesado demais.
+Basta subir os arquivos no repositório e fazer o redeploy no Easypanel.

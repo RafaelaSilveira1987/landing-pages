@@ -1,8 +1,18 @@
 (function () {
   const WHATSAPP_NUMBER = "5532987073537";
 
+  const header = document.querySelector("[data-header]");
   const menuButton = document.querySelector(".menu-toggle");
   const nav = document.querySelector(".site-nav");
+  const backtop = document.querySelector(".backtop");
+
+  function syncHeader() {
+    header?.classList.toggle("is-scrolled", window.scrollY > 60);
+    backtop?.classList.toggle("is-visible", window.scrollY > 520);
+  }
+
+  window.addEventListener("scroll", syncHeader);
+  syncHeader();
 
   if (menuButton && nav) {
     menuButton.addEventListener("click", () => {
@@ -38,7 +48,6 @@
       openWhatsApp(message);
     });
   });
-
 
   const currentYear = document.getElementById("currentYear");
   if (currentYear) {
