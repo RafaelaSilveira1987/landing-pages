@@ -1,0 +1,9 @@
+<svg width="800" height="980" viewBox="0 0 800 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="980" rx="36" fill="#F5F1EB"/>
+  <rect x="68" y="68" width="664" height="844" rx="28" fill="#ECE5DC" stroke="#CFC6BA" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="400" cy="320" r="96" stroke="#1E1E1E" stroke-width="4"/>
+  <path d="M279 534C308 465 363 431 400 431C437 431 492 465 521 534" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M228 681C273 635 333 610 400 610C467 610 527 635 572 681" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round"/>
+  <text x="400" y="762" text-anchor="middle" fill="#2A2825" font-family="Arial, sans-serif" font-size="30" font-weight="700">Sua imagem aqui</text>
+  <text x="400" y="801" text-anchor="middle" fill="#6B655E" font-family="Arial, sans-serif" font-size="20">Ideal para a foto da seção “Quem sou eu”</text>
+</svg>

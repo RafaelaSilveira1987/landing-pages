@@ -50,3 +50,18 @@ Envie o conteúdo da pasta para a raiz de `portfolio.rsautomacaodigital.cloud`, 
 ## Linguagem revisada
 
 Os textos visíveis foram reescritos com palavras simples. Termos como landing page, CTA, SaaS, dashboard, lead, mobile first, SEO e escopo foram substituídos por explicações claras para quem não trabalha com tecnologia.
+
+## Atualização de 03/08/2026 — miniaturas dos projetos
+
+A página principal agora usa imagens reais e personalizadas nos seis cards do portfólio:
+
+- Contabilidade Tributária
+- Vanusa Alves — Perícia Judicial
+- Nanook Fitness App
+- Atendimento Organizado e Automático
+- Cuidar no Lar
+- Mary Hellen — Psicologia
+
+As imagens otimizadas estão em `assets/thumbs/`, em versões de 1200 px e 720 px. O navegador escolhe automaticamente a menor versão no celular.
+
+Os cards também receberam cores de destaque próprias, zoom suave ao passar o mouse e carregamento tardio das imagens para manter a página mais leve.

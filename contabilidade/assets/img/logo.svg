@@ -1,0 +1,8 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo contador tributarista">
+  <rect width="64" height="64" rx="18" fill="#0E2238"/>
+  <path d="M21 42V20h23" stroke="#D9B46E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 42V29h17" stroke="#48B995" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 22h17c5.8 0 9.7 3.4 9.7 8.5 0 5.3-3.9 8.7-9.7 8.7h-8.5V50H77V22Zm16.1 10.9c2.1 0 3.4-1 3.4-2.5s-1.3-2.4-3.4-2.4h-7.6v4.9h7.6Z" fill="#0E2238"/>
+  <path d="M108 22h8.6v20.8H129V50h-21V22Zm25.2 0h23.1v6.9h-14.6v3.7h13.2v6.4h-13.2v4.1h14.9V50h-23.4V22Zm28.8 0h8.6v10.3L181.2 22h10.1l-11.5 11.4L192 50h-10.4l-7.8-10.9-3.2 3.1V50H162V22Z" fill="#0E2238" opacity=".92"/>
+  <text x="77" y="61" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.2" fill="#667085">CONTADOR TRIBUTARISTA</text>
+</svg>
